@@ -1,0 +1,273 @@
+input::-webkit-input-placeholder {
+  color: #a6a6a6;
+  opacity: 1; }
+
+input:-moz-placeholder {
+  color: #a6a6a6;
+  opacity: 1; }
+
+input::-moz-placeholder {
+  color: #a6a6a6;
+  opacity: 1; }
+
+input:-ms-input-placeholder {
+  color: #a6a6a6;
+  opacity: 1; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul, li, input, a {
+  margin: 0;
+  padding: 0; }
+
+input:focus, button:focus, button:active {
+  outline: none; }
+
+button {
+  background-color: transparent;
+  border: none; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+.social {
+  float: right;
+  list-style: none; }
+  .social li {
+    display: inline-block;
+    margin-left: 10px; }
+  .social a {
+    color: #c1c1c1;
+    font-size: 20px; }
+
+.top_header {
+  background-color: #252323;
+  padding: 20px 0; }
+
+.top_navigation {
+  padding: 15px 0;
+  display: inline-block;
+  width: 100%; }
+  .top_navigation .main_mnu_button {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    float: left; }
+  .top_navigation ul {
+    text-transform: uppercase;
+    list-style: none;
+    float: left; }
+    .top_navigation ul li {
+      display: inline-block; }
+      .top_navigation ul li a {
+        padding: 10px;
+        color: #c1c1c1;
+        display: block; }
+      .top_navigation ul li a:hover {
+        color: #00bac6;
+        border-bottom: 1px solid #00bac6;
+        display: block;
+        -webkit-transition: all 0.25s;
+        -o-transition: all 0.25s;
+        transition: all 0.25s; }
+  .top_navigation .search {
+    width: 195px;
+    color: #a6a6a6;
+    border: 1px solid #a6a6a6;
+    line-height: 40px;
+    float: right;
+    padding: 0 10px; }
+    .top_navigation .search input {
+      border: none;
+      width: 90%; }
+
+.carousel_container {
+  background: url("../img/carosuel-bg.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  border-top: 5px solid #efefef; }
+  .carousel_container .item {
+    color: #fff;
+    display: inline-block;
+    max-width: 645px;
+    margin: 9em 0; }
+  .carousel_container h1 {
+    text-transform: uppercase;
+    font-size: 40px; }
+  .carousel_container p {
+    font-size: 15px; }
+  .carousel_container .prev_button {
+    background: url("../img/prew_arrow.png") no-repeat;
+    left: 10%; }
+  .carousel_container .next_button {
+    background: url("../img/next_arrow.png") no-repeat;
+    right: 10%; }
+  .carousel_container .prev_button, .carousel_container .next_button {
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 51px;
+    z-index: 10; }
+  .carousel_container .owl-page {
+    display: inline-block;
+    margin-bottom: 2em; }
+  .carousel_container .owl-page span {
+    width: 17px;
+    height: 16px;
+    border: 4px solid #ffffff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    float: left;
+    margin: 5px; }
+  .carousel_container .owl-pagination .active span {
+    background-color: #00bac6; }
+
+.lorem {
+  color: #818181; }
+  .lorem .nd-header {
+    text-align: center;
+    margin: 50px 0; }
+    .lorem .nd-header h2 {
+      font: 30px "open sans" sans-serif;
+      margin: 10px 0 30px; }
+    .lorem .nd-header span {
+      font-size: 15px;
+      width: 82%;
+      display: inline-block; }
+  .lorem .works {
+    display: inline-block;
+    width: 100%;
+    text-align: center; }
+    .lorem .works li {
+      list-style: none;
+      display: inline-block;
+      width: 25%;
+      margin: 0 4%;
+      vertical-align: top; }
+      .lorem .works li i {
+        color: #cacaca;
+        font-size: 112px; }
+    .lorem .works .active-green i {
+      padding-top: 15px;
+      color: #00bac6; }
+
+.portfolio {
+  background-color: #eeeeee;
+  position: relative;
+  margin-top: 50px;
+  padding: 50px 0; }
+  .portfolio ul {
+    text-align: center; }
+  .portfolio li {
+    list-style: none;
+    max-width: 310px;
+    border: 1px solid #c5c5c5;
+    display: inline-block;
+    overflow: hidden;
+    color: #a5a5a5;
+    margin: 30px;
+    text-align: left; }
+    .portfolio li .padding {
+      padding: 15px; }
+    .portfolio li h4 {
+      font-weight: bold;
+      color: #797878; }
+    .portfolio li img {
+      height: 185px; }
+
+.portfolio:after, .portfolio:before {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.portfolio:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #eeeeee;
+  border-width: 30px;
+  margin-left: -30px; }
+
+.portfolio:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #eeeeee; }
+
+.sponsors {
+  text-align: center;
+  margin: 30px 0; }
+  .sponsors li {
+    display: inline-block;
+    margin: 0 50px;
+    opacity: 0.6; }
+    .sponsors li a {
+      display: inline-block; }
+  .sponsors li:hover {
+    opacity: 1; }
+
+footer {
+  background: url("../img/footer-bg.jpg");
+  padding: 40px 0 60px;
+  text-align: center;
+  color: #c1c1c1; }
+  footer ul {
+    display: inline-block; }
+  footer li {
+    text-align: left;
+    float: left;
+    margin: 0 30px;
+    list-style: none;
+    max-width: 204px; }
+  footer h4 {
+    font: 22px "open sans" sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px; }
+  footer .popular-post li {
+    border-bottom: 1px solid #5c5c5c;
+    padding: 10px 0;
+    margin: 0; }
+    footer .popular-post li span {
+      margin: 10px 0;
+      display: block; }
+      footer .popular-post li span i {
+        color: #00bac6;
+        margin-right: 5px; }
+  footer .popular-post li:last-child {
+    border-bottom: none; }
+  footer .tags p {
+    font-size: 14px; }
+    footer .tags p span {
+      font-size: 16px;
+      color: #ffffff; }
+  footer .touch li {
+    margin: 0; }
+    footer .touch li a {
+      color: #c1c1c1;
+      margin-bottom: 5px;
+      display: block; }
+    footer .touch li a:hover {
+      text-decoration: underline; }
+    footer .touch li i {
+      margin-right: 5px;
+      color: #00bac6;
+      width: 15px; }
+  footer .touch ul {
+    margin: 10px 0; }
+
+.copyright {
+  background: url("../img/copy-bg.jpg");
+  text-align: center;
+  color: #c1c1c1;
+  padding: 30px 0; }
+  .copyright .copy {
+    float: left; }
+
+/*# sourceMappingURL=main.css.map */

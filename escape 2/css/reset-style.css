@@ -1,0 +1,17 @@
+a {
+  text-decoration: none; }
+
+h1, h4, ul, h3 {
+  font-weight: lighter;
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  text-decoration: none;
+  list-style: none; }
+
+/*# sourceMappingURL=reset-style.css.map */

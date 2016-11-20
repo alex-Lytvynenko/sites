@@ -1,0 +1,92 @@
+@media screen and (max-width: 800px) {
+  #touch-menu {
+    display: block; }
+
+  nav {
+    display: none;
+    width: 100%;
+    margin-top: -19px; }
+
+  .nav {
+    margin-top: 25px; }
+    .nav li {
+      display: block !important;
+      margin: 0 auto 10px;
+      right: 0;
+      max-width: 90px; }
+
+  .team .team-container ul {
+    margin-bottom: 20px; } }
+@media screen and (max-width: 900px) {
+  .development img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px; }
+  .development .text-container {
+    max-width: 97%;
+    margin: 0 auto; }
+    .development .text-container h4 {
+      text-align: center; }
+
+  .branding-bg img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px; }
+  .branding-bg .text-container {
+    max-width: 97%;
+    margin: 0 auto; }
+    .branding-bg .text-container h4 {
+      text-align: center; }
+  .branding-bg img {
+    width: 185px; }
+
+  .clients .client .photo {
+    float: none;
+    margin: 0 auto 10px;
+    display: block; }
+  .clients .client .left-arrow, .clients .client .right-arrow {
+    position: relative;
+    background: #ffffff;
+    width: auto; }
+  .clients .client .left-arrow:after, .clients .client .right-arrow:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 21px;
+    margin-left: -21px;
+    top: -26px; }
+
+  .contact-us .our-contact .contact-container {
+    display: block;
+    max-width: 100%; }
+  .contact-us .our-contact form {
+    float: none; } }
+@media screen and (max-width: 500px) {
+  .service li {
+    text-align: center; }
+  .service .content-can-do {
+    margin-left: 0 !important;
+    margin-top: 85px; }
+  .service span {
+    top: 0 !important;
+    left: 38%; }
+
+  .contact-us .our-contact .contact-container ul li {
+    display: block;
+    width: auto; } }
+@media screen and (min-width: 800px) {
+  nav {
+    display: block !important; } }
+
+/*# sourceMappingURL=responsive.css.map */

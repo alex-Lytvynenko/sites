@@ -1,0 +1,102 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    footer .popular-post,.tags,.about-us,.touch{
+        margin: 0 10px;
+        /*text-align: center;*/
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_navigation ul{
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        z-index: 12;
+        top: 77px;
+    }
+    .prev_button,.next_button{
+        display: none;
+    }
+    .carousel_container .item{
+        margin: 1em 0;
+    }
+    .lorem .works li{
+        width: 70%!important;
+    }
+
+}
+
+@media only screen and (max-width : 1010px) {
+    .works li{
+        width: 40%!important;
+    }
+    .lorem .active-green i{
+        padding-top: 0!important;
+        color: #cacaca!important;
+        margin-top: 10px;
+    }
+    .portfolio li{
+        width: 100%;
+        margin: 5px;
+    }
+}
+@media only screen and (max-width : 610px) {
+    .sponsors li {
+        width: 100%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .portfolio li{
+        width: 100%;
+        margin: 0;
+    }
+    .sponsors li{
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .top_navigation ul{
+        display: inline-block !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

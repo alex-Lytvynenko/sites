@@ -1,0 +1,384 @@
+//reset-----
+*
+  padding: 0
+  margin: 0
+li
+  list-style: none
+//---mixin
+@mixin aline
+  display: inline-block
+  text-align: left
+  padding: 100px 0
+  div
+    width: 64%
+@mixin aline-img
+  img
+    margin-top: 60px
+@mixin header
+  h3
+    font-size: 3em
+    color: #222222
+    margin: 0
+    font-weight: lighter
+    text-align: center
+    span
+      font-weight: bold
+  p
+    color: #777777
+    font-size: 1.3em
+    text-align: center
+@mixin section-text
+  p
+    color: #777777
+  p:last-child
+    padding: 2em 0 0
+  h4
+    font-size: 3em
+    color: #222222
+    margin-bottom: 0.5em
+    font-weight: lighter
+  img
+    margin-top: 3.5em
+
+//my style-----------
+body
+  font: 18px "Brandon Grotesque", regular, sans-serif
+section
+  padding: 3.125em 0 6.25em
+
+//.aline-container
+//  display: block
+//  width: 940px
+//  margin: 0 auto
+//first blog-----
+.first-part
+  overflow: hidden
+  background: url("../img/main-bg.jpg") no-repeat
+  background-size: cover
+  text-align: center
+  background-attachment: fixed
+  .navbar-header
+    background-color: transparent
+  .logo
+    display: inline-block
+  .navigaton
+    display: inline-block
+  li
+    float: left
+    a
+      color: #ffffff
+      text-decoration: none
+      font-weight: bold
+      margin-left: 30px
+    a:hover
+      text-decoration: underline
+  .we-can
+    text-align: center
+    color: #ffffff
+    margin-top: 10em
+    span
+      font-size: 2em
+      font-weight: lighter
+    h1
+      font-size: 4.125em
+      font-weight: bold
+    a
+      font-weight: bold
+      font-size: 1.7em
+      text-decoration: none
+      color: #ffffff
+      display: inline-block
+      margin: 80px 0 20px
+      width: 200px
+      line-height: 70px
+      text-align: center
+      vertical-align: middle
+      -webkit-transform: translateZ(0)
+      transform: translateZ(0)
+      -webkit-backface-visibility: hidden
+      backface-visibility: hidden
+      -moz-osx-font-smoothing: grayscale
+      position: relative
+    a:before
+      content: ''
+      position: absolute
+      //border: #e1e1e1 solid 4px
+      border: 1px solid #ffffff
+      -webkit-border-radius: 5px
+      -moz-border-radius: 5px
+      border-radius: 5px
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+      -webkit-transition-duration: 0.3s
+      transition-duration: 0.3s
+      -webkit-transition-property: top, right, bottom, left
+      transition-property: top, right, bottom, left
+    a:hover:before, a:focus:before, a:active:before
+      top: -8px
+      right: -8px
+      bottom: -8px
+      left: -8px
+//---second
+.development
+  float: none
+  margin: 0 auto
+  @include section-text
+.branding-bg
+  background: #fafafa
+  .branding
+    float: none
+    margin: 0 auto
+    @include section-text
+    @include aline-img
+.we-can-do
+  margin: 0 auto
+  clear: both
+  float: none
+  ul
+    display: inline-block
+  li
+    display: inline-block
+    float: left
+    margin-bottom: 30px
+    span
+      display: inline-block
+      width: 70px
+      height: 70px
+      background-color: #000000
+      text-align: center
+      line-height: 65px
+      -webkit-border-radius: 35px
+      -moz-border-radius: 35px
+      -o-border-radius: 35px
+      border-radius: 35px
+      margin-right: 15px
+    .content-can-do
+      display: inline-block
+      p:first-child
+        font-weight: bold
+        color: #222222
+      p:first-child:hover
+        cursor: pointer
+        text-decoration: underline
+      p
+        width: 305px
+      p:last-child
+        padding: 0
+//---third
+.clients
+  background-color: #fafafa
+  header
+    @include header
+  .first-client,.second-client
+    display: inline-block
+    margin-bottom: 2em
+  .client
+    margin: 2.5em auto 0
+    float: none
+    .photo
+      width: 222px
+      height: 222px
+      -webkit-border-radius: 111px
+      -moz-border-radius: 111px
+      -o-border-radius: 111px
+      border-radius: 111px
+      background-color: #111111
+      display: inline-block
+      color: #111111
+      margin-right: 2.5em
+    .comment
+      display: inline-block
+      text-align: left
+      background-color: #ffffff
+      position: relative
+      padding: 40px
+      margin-top: 30px
+      p
+        font-size: 1.3em
+      span
+        color: #7690c5
+        font-size: 20px
+    .left-arrow:after, .left-arrow:before
+      right: 100%
+      top: 50%
+      border: solid transparent
+      content: " "
+      height: 0
+      width: 0
+      position: absolute
+      pointer-events: none
+    .left-arrow:after
+      border-color: rgba(255, 255, 255, 0)
+      border-right-color: #ffffff
+      border-width: 15px
+      margin-top: -15px
+    .left-arrow:before
+      border-width: 21px
+      margin-top: -21px
+    .right-arrow:after, .right-arrow:before
+      left: 100%
+      top: 50%
+      border: solid transparent
+      content: " "
+      height: 0
+      width: 0
+      position: absolute
+      pointer-events: none
+    .right-arrow:after
+      border-color: rgba(255, 255, 255, 0)
+      border-left-color: #ffffff
+      border-width: 15px
+      margin-top: -15px
+    .right-arrow:before
+      border-width: 21px
+      margin-top: -21px
+
+//platforms-----
+.patforms
+  padding: 2em 0 2em
+  text-align: center
+  ul
+    display: inline-block
+    line-height: 2em
+    li
+      float: left
+      margin-right: 1em
+      a
+        display: inline-block
+//team
+.team
+  background-color: #111111
+  header
+    @include header
+    h3
+      color: #ffffff
+  .team-list
+    margin: 0 auto
+    float: none
+    ul
+      display: inline-block
+      padding-top: 3em
+      li
+        float: left
+        width: 240px
+        text-align: center
+        display: inline-block
+        margin: 0 20px
+        .team-photo
+          display: inline-block
+          border: 8px solid #ffffff
+          width: 235px
+          height: 235px
+          -webkit-border-radius: 117px
+          -moz-border-radius: 117px
+          -o-border-radius: 117px
+          border-radius: 117px
+          margin-bottom: 20px
+        p
+          font-weight: bold
+          color: #ffffff
+        span
+          color: #ffffff
+          font-size: 16px
+          display: block
+        ul
+          text-align: center
+          display: inline-block
+          margin-top: 10px
+          li
+            float: left
+            width: 50px
+            margin: 0 0 0
+            a
+              overflow: hidden
+              width: 40px
+              height: 40px
+              line-height: 33px
+              -webkit-border-radius: 25px
+              -moz-border-radius: 25px
+              -o-border-radius: 25px
+              border-radius: 25px
+              border: 2px solid #ffffff
+              display: inline-block
+              vertical-align: middle
+              -webkit-transform: translateZ(0)
+              transform: translateZ(0)
+              -webkit-backface-visibility: hidden
+              backface-visibility: hidden
+              -moz-osx-font-smoothing: grayscale
+              -webkit-transition-duration: 0.3s
+              transition-duration: 0.3s
+              -webkit-transition-property: transform
+              transition-property: transform
+            a:hover, .a:focus, .a:active
+              -webkit-transform: scale(1.1)
+              transform: scale(1.1)
+  .output
+    font-size: 1em
+    color: #ebebeb
+    text-align: center
+    float: none
+    display: block
+    margin: 0 auto
+    margin-top: 2em
+//contacts----------
+.contact-us
+  background-color: #7690c5
+  color: #ffffff
+  .our-contact
+    margin: 0 auto
+    float: none
+    overflow: hidden
+    h4
+      font-size: 3.5em
+      font-weight: lighter
+      span
+        font-weight: bold
+    ul
+      display: inline-block
+      margin-top: 2em
+      li
+        float: left
+        line-height: 2em
+        width: 50%
+        margin-bottom: 15px
+        a
+          color: #ffffff
+          span
+            width: 13%
+            display: inline-block
+            text-align: center
+  form
+    display: inline-block
+    margin-top: 1.3em
+    color: #777777
+    input
+      width: 100%
+      display: block
+      line-height: 2em
+      padding-left: 0.5em
+      margin-bottom: 1.3em
+    textarea
+      width: 100%
+      padding: 0.5em 0 0 0.5em
+      resize: none
+footer
+  background-color: #7690c5
+  text-align: center
+  padding-bottom: 2em
+  .copirate
+    color: #ffffff
+    font-size: 1em
+
+
+
+
+
+
+
+
+
+
+

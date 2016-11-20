@@ -1,0 +1,241 @@
+//reset
+h1,h2,h3,li,a,ul,p
+  margin: 0
+  padding: 0
+  list-style: none
+  outline: none
+a:focus,a:active,input,textarea,a:hover
+  outline: none
+  border: none
+  text-decoration: none
+//header
+header
+  width: 100%
+  background: #1e5799
+  background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8))
+  background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%)
+  background: -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%)
+  background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%)
+  background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 )
+.aline_header
+  width: 960px
+  margin: 0 auto
+  line-height: 90px
+  h1
+    display: inline-block
+    a
+      display: inline-block
+.navigation
+  float: right
+  li
+    float: left
+    margin-left: 5px
+    a
+      font-size: 13px
+      font-weight: bold
+      color: #2f57a1
+      display: inline-block
+      line-height: 3px
+      padding: 15px
+      -webkit-border-radius: 20px
+      border-radius: 20px
+    a:hover,a:focus
+      color: #000000
+      background: #ffffff
+      background: -moz-linear-gradient(top, #ffffff 0%, #cacaca 100%)
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#cacaca))
+      background: -webkit-linear-gradient(top, #ffffff 0%,#cacaca 100%)
+      background: -o-linear-gradient(top, #ffffff 0%,#cacaca 100%)
+      background: -ms-linear-gradient(top, #ffffff 0%,#cacaca 100%)
+      background: linear-gradient(to bottom, #ffffff 0%,#cacaca 100%)
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cacaca',GradientType=0 )
+.carousel
+  background: url("../img/carusel-bg.gif")no-repeat
+  text-align: center
+#owl-demo
+  max-width: 960px
+  margin: 0 auto
+  position: relative
+  padding: 20px 0
+  .item img
+    width: 100%
+    height: auto
+  .owl-controls
+    text-align: center
+    .owl-page span
+      width: 20px
+      height: 20px
+      border-radius: 10px
+      background-color: #ffffff
+      display: inline-block
+      margin: 0 5px
+    .owl-page .active span
+      background-color: #000000
+  //.owl-page
+  //  display: inline-block
+  //  text-align: center
+  //  span
+  //    width: 16px
+  //    height: 19px
+  //    background: url("../img/pagination.png")no-repeat
+  //    display: inline-block
+  //    float: left
+  //    margin: 10px
+  //.owl-pagination .active span
+  //  background: url("../img/pagination-active.png") no-repeat
+//content
+.content
+  background: #dadfeb
+  .aline-content
+    width: 960px
+    margin: 0 auto
+    .tittle
+      color: #132445
+      font-size: 36px
+      width: 590px
+      display: inline-block
+      margin: 20px 0
+    .lets-start
+      display: inline-block
+      float: right
+      margin: 10px 0
+  .horizontal
+    background: url("../img/horizontal-line.png") no-repeat
+    width: 1026px
+    height: 29px
+    display: block
+    margin: 0 auto
+  //articles
+  .aline-articles
+    width: 960px
+    margin: 0 auto
+  .articles
+    display: inline-block
+    margin-bottom: 40px
+    li
+      width: 218px
+      background: #ffffff
+      border-radius: 3px
+      padding: 19px 18px 16px
+      float: left
+      margin-left: 29px
+      h3
+        font-size: 20px
+        font-weight: bold
+        color: #132445
+        margin: 10px 0
+      p
+        font-size: 13px
+        color: #545668
+        margin-bottom: 10px
+      a
+        display: block
+        width: 111px
+        line-height: 25px
+        border-radius: 12px
+        text-align: center
+        color: #2945c0
+        background: #fefefe
+        background: -moz-linear-gradient(top,  #fefefe 0%, #cdd1da 100%)
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#cdd1da))
+        background: -webkit-linear-gradient(top,  #fefefe 0%,#cdd1da 100%)
+        background: -o-linear-gradient(top,  #fefefe 0%,#cdd1da 100%)
+        background: -ms-linear-gradient(top,  #fefefe 0%,#cdd1da 100%)
+        background: linear-gradient(to bottom,  #fefefe 0%,#cdd1da 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#cdd1da',GradientType=0 )
+    li:first-child
+      margin: 0
+  .states
+    display: inline-block
+    width: 445px
+    li
+      display: inline-block
+      width: 193px
+      margin-left: 55px
+      margin-bottom: 20px
+      span
+        line-height: 50px
+        margin-bottom: 10px
+        display: inline-block
+      img
+        float: left
+        margin-right: 10px
+      span
+        font-size: 15px
+        color: #132445
+        display: inline-block
+        font-weight: bold
+      p
+        font-size: 13px
+    li:nth-child(2n+1)
+      margin-left: 0
+  .about-company
+    display: inline-block
+    color: #132445
+    width: 490px
+    margin-left: 20px
+    float: right
+    h3
+      font-size: 15px
+      font-weight: bold
+      margin-bottom: 15px
+    p
+      font-size: 13px
+      line-height: 25px
+      margin-bottom: 10px
+    a
+      text-decoration: underline
+footer
+  background: #565f81
+  .aline-footer
+    width: 960px
+    margin: 0 auto
+    .left-part
+      width: 420px
+      display: inline-block
+      margin: 25px 0 30px
+      .footer-nav
+        li
+          float: left
+          margin-right: 12px
+          border-right: 1px solid #dadfeb
+          padding-right: 10px
+          a
+            color: #dadfeb
+            font-size: 13px
+          a:hover
+            color: #9fa8bd
+        li:last-child
+          margin: 0
+          border-right: none
+      p
+        color: #9fa8bd
+        font-size: 12px
+        margin-top: 10px
+        display: inline-block
+        a
+          color: #dadfeb
+          text-decoration: underline
+    .social-us
+      display: inline-block
+      float: right
+      line-height: 100px
+      li
+        float: left
+        color: #dadfeb
+        font-size: 13px
+        margin-left: 20px
+        a
+          display: inline-block
+          width: 36px
+        a:hover
+          -webkit-transform: scale(1.1)
+          transform: scale(1.1)
+
+
+
+
+
+
