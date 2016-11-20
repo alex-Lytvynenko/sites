@@ -358,7 +358,7 @@ body {
 .footer {
   background: #414146;
   padding: 30px 0;
-  color: #c1b8b8;
+  color: #ffffff;
   overflow: hidden; }
   .footer .footer-container {
     margin: 0 auto;
@@ -379,7 +379,7 @@ body {
         line-height: 40px;
         text-align: center;
         background-color: #000;
-        color: #c1b8b8;
+        color: #ffffff;
         font-weight: bold;
         vertical-align: middle;
         -webkit-transform: perspective(1px) translateZ(0);
@@ -429,13 +429,12 @@ body {
       .footer .footer-container .center-block .last-tweets span {
         color: #ffea00; }
       .footer .footer-container .center-block .last-tweets ul {
-        list-style-image: url("../images/list-tweet-icon.png");
         margin: 25px 0; }
         .footer .footer-container .center-block .last-tweets ul li {
           background: url("../images/list-tweet-icon.png") no-repeat left center;
           padding-left: 45px; }
           .footer .footer-container .center-block .last-tweets ul li a {
-            color: #c1b8b8;
+            color: #ffffff;
             display: block; }
           .footer .footer-container .center-block .last-tweets ul li a:hover {
             text-decoration: underline; }
@@ -444,28 +443,121 @@ body {
           margin: 7px 0;
           font-size: 10px;
           font-weight: bold; }
-    .footer .footer-container .social {
-      display: inline-block;
-      width: 100%;
-      margin-top: 40px; }
-      .footer .footer-container .social h4 {
-        float: left; }
-      .footer .footer-container .social ul li {
-        float: left;
-        margin: 0 1px; }
-        .footer .footer-container .social ul li a {
-          display: inline-block; }
-          .footer .footer-container .social ul li a img {
-            -webkit-transition: all 1s ease;
-            -moz-transition: all 1s ease;
-            -ms-transition: all 1s ease;
-            -o-transition: all 1s ease;
-            transition: all 1s ease; }
-          .footer .footer-container .social ul li a img:hover {
-            -webkit-transform: scale(1.25);
-            -moz-transform: scale(1.25);
-            -ms-transform: scale(1.25);
-            -o-transform: scale(1.25);
-            transform: scale(1.25); }
+      .footer .footer-container .center-block .social {
+        display: inline-block;
+        width: 100%;
+        margin-top: 40px; }
+        .footer .footer-container .center-block .social h4 {
+          float: left; }
+        .footer .footer-container .center-block .social ul li {
+          float: left;
+          margin: 0 1px; }
+          .footer .footer-container .center-block .social ul li a {
+            display: inline-block; }
+            .footer .footer-container .center-block .social ul li a img {
+              -webkit-transition: all 1s ease;
+              -moz-transition: all 1s ease;
+              -ms-transition: all 1s ease;
+              -o-transition: all 1s ease;
+              transition: all 1s ease; }
+            .footer .footer-container .center-block .social ul li a img:hover {
+              -webkit-transform: scale(1.25);
+              -moz-transform: scale(1.25);
+              -ms-transform: scale(1.25);
+              -o-transform: scale(1.25);
+              transform: scale(1.25); }
+    .footer .footer-container .right-block {
+      float: right;
+      max-width: 330px; }
+      .footer .footer-container .right-block .contacts {
+        display: inline-block; }
+        .footer .footer-container .right-block .contacts ul {
+          margin-top: 25px; }
+          .footer .footer-container .right-block .contacts ul li {
+            padding-left: 40px;
+            height: 50px;
+            position: relative; }
+          .footer .footer-container .right-block .contacts ul .address:before {
+            content: "";
+            background: url("../images/address-icon.jpg") no-repeat left center;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 0; }
+          .footer .footer-container .right-block .contacts ul .phone span:last-child {
+            display: block;
+            margin-left: 59px; }
+          .footer .footer-container .right-block .contacts ul .phone:before {
+            content: "";
+            background: url("../images/phone-icon.jpg") no-repeat left center;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 0; }
+          .footer .footer-container .right-block .contacts ul .email:before {
+            content: "";
+            background: url("../images/letter-icon.jpg") no-repeat;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 0; }
+          .footer .footer-container .right-block .contacts ul .email a {
+            color: #ffea00; }
+          .footer .footer-container .right-block .contacts ul .email a:hover {
+            text-decoration: underline; }
+      .footer .footer-container .right-block .follow-us {
+        display: inline-block; }
+        .footer .footer-container .right-block .follow-us p {
+          margin: 20px 0; }
+        .footer .footer-container .right-block .follow-us .follow {
+          display: inline-block;
+          position: relative;
+          width: 190px; }
+          .footer .footer-container .right-block .follow-us .follow input {
+            border: none; }
+          .footer .footer-container .right-block .follow-us .follow input[type=text] {
+            border-bottom: 1px solid #ffea00;
+            background: transparent;
+            height: 25px; }
+          .footer .footer-container .right-block .follow-us .follow input[type=text]::-moz-placeholder {
+            color: #ffffff; }
+          .footer .footer-container .right-block .follow-us .follow input[type=text]:-ms-input-placeholder {
+            color: #ffffff; }
+          .footer .footer-container .right-block .follow-us .follow input[type=text]::-webkit-input-placeholder {
+            color: #ffffff; }
+          .footer .footer-container .right-block .follow-us .follow input[type=button] {
+            background: url("../images/email-icon.jpg") no-repeat;
+            width: 28px;
+            height: 28px;
+            position: absolute;
+            right: 0;
+            top: 0; }
+
+.below-footer {
+  background: #000000;
+  color: #ffffff;
+  text-align: center; }
+  .below-footer .below-footer-container {
+    width: 90%;
+    display: inline-block;
+    line-height: 55px; }
+  .below-footer .copyright {
+    float: left; }
+  .below-footer .bottom-navigation {
+    float: right; }
+    .below-footer .bottom-navigation li {
+      display: inline-block; }
+      .below-footer .bottom-navigation li a {
+        font-size: 16px;
+        padding: 10px;
+        margin: 40px 0 0 20px;
+        color: #ffffff;
+        -moz-transition: all 0.5s linear 0s;
+        -o-transition: all 0.5s linear 0s;
+        -webkit-transition: all 0.5s linear 0s;
+        -ms-transition: all 0.5s linear 0s;
+        transition: all 0.5s linear 0s; }
+      .below-footer .bottom-navigation li a:hover, .below-footer .bottom-navigation li a:focus {
+        background: #ffea00; }
 
 /*# sourceMappingURL=style.css.map */

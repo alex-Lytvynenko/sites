@@ -14,4 +14,7 @@ ul, li {
   text-decoration: none;
   list-style: none; }
 
+input:focus {
+  outline: none; }
+
 /*# sourceMappingURL=reset-style.css.map */
